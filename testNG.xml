@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite de pruebas" thread-count="2" parallel="tests">
+
+
+    <test name="Test Get Objects with id 5 and StatusCode 200">
+        <parameter name="id" value="/2"></parameter>
+        <parameter name="expectedStatusCode" value="200"></parameter>
+        <classes>
+           <class name="tests.apiPublica.GetSingleObject"> </class>
+        </classes>
+    </test>
+
+    <test name="Test Get Objects with id 50 and StatusCode 404">
+        <parameter name="id" value="/50" ></parameter>
+        <parameter name="expectedStatusCode" value="404"></parameter>
+        <classes>
+            <class name="test.apiPublica.GetSingleObject"> </class>
+        </classes>
+    </test>
+
+
+</suite>
+
+
+
+
+
+
+<!--    <test name="Test Create Object">-->
+<!--        <classes>-->
+<!--            <class name="apiPublica.CreateObject"> </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Test Update">-->
+<!--        <classes>-->
+<!--            <class name="apiPublica.UpdateObject"> </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Test Update Partially">-->
+<!--        <classes>-->
+<!--            <class name="apiPublica.UpdatePartiallyObject"> </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Test Delete">-->
+<!--        <classes>-->
+<!--            <class name="apiPublica.DeletObject"> </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+

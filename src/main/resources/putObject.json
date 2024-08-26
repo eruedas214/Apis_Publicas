@@ -1,0 +1,10 @@
+{
+  "name": "Apple MacBook Pro 15",
+  "data": {
+    "year": 2018,
+    "price": 1049.99,
+    "CPU model": "Intel Core i3 ",
+    "Hard disk size": "250 MB",
+    "color": "Red"
+  }
+}
