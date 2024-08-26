@@ -3,14 +3,14 @@
     "CustInfo": {
       "PersonInfo": {
         "PersonName": {
-          "FirstName": "Pablo",
-          "LastName": "Perez"
+          "FirstName": "ERIKA",
+          "LastName": "RUEDAS"
         },
         "ContactInfo": [
           {
             "PhoneNum": {
               "PhoneType": "12",
-              "Phone": "3185276096"
+              "Phone": "3134438564"
             },
             "EmailAddr": "earias8@bancodebogota.com.co",
             "PostAddr": {
@@ -22,7 +22,7 @@
             }
           }
         ],
-        "BirthDt": "2000-07-11",
+        "BirthDt": "1999-09-11",
         "Gender": "M",
         "TaxPayerInd": false,
         "Nationality": "COL",
