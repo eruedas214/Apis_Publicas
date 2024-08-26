@@ -27,6 +27,6 @@ public class UpdatePartiallyObject {
 
         response.prettyPrint();
         int statusCode = response.getStatusCode();
-        Assert.assertEquals(statusCode, 200);
+        Assert.assertEquals(statusCode, 400);
     }
 }

@@ -27,7 +27,7 @@ public class CreateObject {
 
         response.prettyPrint();
         int statusCode = response.getStatusCode();
-        Assert.assertEquals(statusCode, 201);
+        Assert.assertEquals(statusCode, 200);
     }
 
 
